@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usman Kamran — Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Custom cursor -->
+    <div id="cursor-dot"></div>
+    <div id="cursor-ring"></div>
+
+    <!-- Loader -->
+    <div id="loader">
+        <div class="loader-inner">
+            <div class="loader-line"></div>
+            <span class="loader-name">USMAN KAMRAN</span>
+            <div class="loader-line"></div>
+        </div>
+        <div class="loader-counter"><span id="loader-num">0</span></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav">
+        <a href="#" class="nav-logo">UK<span class="nav-logo-dot">®</span></a>
+        <div class="nav-center">
+            <span class="nav-tagline">Full Stack Developer · Lahore</span>
+        </div>
+        <div class="nav-right">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#work" class="nav-link">Work</a>
+            <a href="hire.html" class="nav-cta">Hire Me</a>
+        </div>
+        <button class="nav-burger" id="burger" aria-label="Menu">
+            <span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="hire.html">Hire Me</a>
+    </div>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-bg">
+            <video autoplay loop muted playsinline class="hero-video">
+                <source src="./bg_video.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-eyebrow">
+                <span class="eyebrow-line"></span>
+                <span>Available for Projects · 2025</span>
+                <span class="eyebrow-line"></span>
+            </div>
+            <h1 class="hero-title">
+                <em class="hero-title-italic">Usman</em><br>
+                <span class="hero-title-bold">Kamran</span><br>
+               
+            </h1>
+            <p class="hero-sub">Full Stack Developer specializing in scalable web<br>applications with precision and purpose.</p>
+            <div class="hero-actions">
+                <a href="#work" class="btn-primary">View My Work</a>
+                <a href="hire.html" class="btn-ghost">Start a Project</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <span class="stat-num">3+</span>
+                <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+                <span class="stat-num">40+</span>
+                <span class="stat-label">Projects Delivered</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+                <span class="stat-num">100%</span>
+                <span class="stat-label">Client Satisfaction</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- MARQUEE TICKER -->
+    <div class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-inner" id="marqueeInner">
+                <span>React</span><span class="sep">✦</span>
+                <span>Node.js</span><span class="sep">✦</span>
+                <span>MongoDB</span><span class="sep">✦</span>
+                <span>Express</span><span class="sep">✦</span>
+                <span>GSAP</span><span class="sep">✦</span>
+                <span>Tailwind CSS</span><span class="sep">✦</span>
+                <span>Next.js</span><span class="sep">✦</span>
+                <span>TypeScript</span><span class="sep">✦</span>
+                <span>PostgreSQL</span><span class="sep">✦</span>
+                <span>REST APIs</span><span class="sep">✦</span>
+                <span>React</span><span class="sep">✦</span>
+                <span>Node.js</span><span class="sep">✦</span>
+                <span>MongoDB</span><span class="sep">✦</span>
+                <span>Express</span><span class="sep">✦</span>
+                <span>GSAP</span><span class="sep">✦</span>
+                <span>Tailwind CSS</span><span class="sep">✦</span>
+                <span>Next.js</span><span class="sep">✦</span>
+                <span>TypeScript</span><span class="sep">✦</span>
+                <span>PostgreSQL</span><span class="sep">✦</span>
+                <span>REST APIs</span><span class="sep">✦</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-num">01</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-image-wrapper">
+                    <div class="about-image-frame">
+                        <img src="./pic.jpg" alt="Usman Kamran">
+                        <div class="image-accent-border"></div>
+                    </div>
+                    <div class="about-card-float">
+                        <span class="float-icon">⚡</span>
+                        <div>
+                            <strong>MERN Stack</strong>
+                            <p>Expert Level</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="about-intro">I'm <em>Usman Kamran</em>, a Full Stack Developer based in Lahore, Pakistan. I bridge the gap between design and engineering to build products that feel as good as they perform.</p>
+                    <p class="about-body">Specializing in the MERN stack, I craft scalable, high-performance web applications. Every line of code I write is intentional — from pixel-perfect UIs to rock-solid backends.</p>
+                    <div class="about-skills">
+                        <div class="skill-col">
+                            <h4>Frontend</h4>
+                            <ul>
+                                <li>React / Next.js</li>
+                                <li>GSAP Animations</li>
+                                <li>Tailwind CSS</li>
+                                <li>Gsap</li>
+                            </ul>
+                        </div>
+                        <div class="skill-col">
+                            <h4>Backend</h4>
+                            <ul>
+                                <li>Node.js / Express</li>
+                                <li>MongoDB / MySQL</li>
+                                <li>REST APIs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="hire.html" class="btn-primary">Work With Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORK / PROJECTS -->
+    <section id="work">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-num">02</span>
+                <h2 class="section-title">Selected Work</h2>
+            </div>
+        </div>
+        <div class="projects-list">
+
+            <div class="project-row" data-index="01">
+                <div class="project-row-inner">
+                    <div class="project-meta">
+                        <span class="project-category">Streaming · GSAP</span>
+                        <h3 class="project-name">Music Platform</h3>
+                        <p class="project-desc">A full-featured music streaming application with fluid GSAP animations and a premium listening experience.</p>
+                        <div class="project-tags">
+                            <span>React</span><span>Node.js</span><span>MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <span>→</span></a>
+                    </div>
+                    <div class="project-image-holder">
+                        <img src="./project4_img.webp" alt="Music Platform" loading="lazy">
+                        <div class="project-number">01</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-row" data-index="02">
+                <div class="project-row-inner reverse">
+                    <div class="project-meta">
+                        <span class="project-category">Entertainment · Streaming</span>
+                        <h3 class="project-name">CineStream</h3>
+                        <p class="project-desc">A cinematic movie streaming platform with advanced search, user authentication, and a sleek dark interface.</p>
+                        <div class="project-tags">
+                            <span>React</span><span>Express</span><span>JWT Auth</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <span>→</span></a>
+                    </div>
+                    <div class="project-image-holder">
+                        <img src="./project6_img.jpg" alt="CineStream" loading="lazy">
+                        <div class="project-number">02</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-row" data-index="03">
+                <div class="project-row-inner">
+                    <div class="project-meta">
+                        <span class="project-category">Tourism · Booking</span>
+                        <h3 class="project-name">Saudi Travels</h3>
+                        <p class="project-desc">A full tourism and booking platform for Saudi Arabia travel packages, built for performance and conversion.</p>
+                        <div class="project-tags">
+                            <span>MERN Stack</span><span>Payments</span><span>CMS</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <span>→</span></a>
+                    </div>
+                    <div class="project-image-holder">
+                        <img src="./project3_img.jpg" alt="Saudi Travels" loading="lazy">
+                        <div class="project-number">03</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-row" data-index="04">
+                <div class="project-row-inner">
+                    <div class="project-meta">
+                        <span class="project-category">AI · Image Genrator</span>
+                        <h3 class="project-name">Vectris</h3>
+                        <p class="project-desc">A full tourism and booking platform for Saudi Arabia travel packages, built for performance and conversion.</p>
+                        <div class="project-tags">
+                            <span>MERN Stack</span><span>Payments</span><span>CMS</span>
+                        </div>
+                        <a href="https://ai-image-gen-front.vercel.app" class="project-link">View Project <span>→</span></a>
+                    </div>
+                    <div class="project-image-holder">
+                        <img src="./vectric.jpg" alt="Saudi Travels" loading="lazy">
+                        <div class="project-number">04</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-row" data-index="05">
+                <div class="project-row-inner">
+                    <div class="project-meta">
+                        <span class="project-category">Music · Player</span>
+                        <h3 class="project-name">AppSO</h3>
+                        <p class="project-desc">A full tourism and booking platform for Saudi Arabia travel packages, built for performance and conversion.</p>
+                        <div class="project-tags">
+                            <span>MERN Stack</span><span>Payments</span><span>CMS</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <span>→</span></a>
+                    </div>
+                    <div class="project-image-holder">
+                        <img src="./Apple Music Landing Page.png" alt="Saudi Travels" loading="lazy">
+                        <div class="project-number">05</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-row" data-index="06">
+                <div class="project-row-inner">
+                    <div class="project-meta">
+                        <span class="project-category">Social · App</span>
+                        <h3 class="project-name">Aura</h3>
+                        <p class="project-desc">A full tourism and booking platform for Saudi Arabia travel packages, built for performance and conversion.</p>
+                        <div class="project-tags">
+                            <span>MERN Stack</span><span>Payments</span><span>CMS</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <span>→</span></a>
+                    </div>
+                    <div class="project-image-holder">
+                        <img src="./Aura.jpg" alt="Saudi Travels" loading="lazy">
+                        <div class="project-number">06</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-num">03</span>
+                <h2 class="section-title">Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">◈</div>
+                    <h3>Landing Pages</h3>
+                    <p>High-conversion landing pages with GSAP animations and pixel-perfect mobile responsiveness.</p>
+                    <div class="service-price">From <strong>$150</strong></div>
+                    <a href="hire.html" class="service-link">Get Started →</a>
+                </div>
+                <div class="service-card featured">
+                    <div class="service-badge">Most Popular</div>
+                    <div class="service-icon">◉</div>
+                    <h3>Business Websites</h3>
+                    <p>Multi-page corporate sites with SEO optimization, CMS integration, and ongoing support.</p>
+                    <div class="service-price">From <strong>$300</strong></div>
+                    <a href="hire.html" class="service-link">Get Started →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⬡</div>
+                    <h3>Full Stack Apps</h3>
+                    <p>Complete MERN stack solutions with database architecture, auth systems, and admin dashboards.</p>
+                    <div class="service-price">From <strong>$600</strong></div>
+                    <a href="hire.html" class="service-link">Get Started →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-num">04</span>
+                <h2 class="section-title">Kind Words</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Usman delivered a stunning landing page in just 3 days. The animations and attention to detail were beyond what we expected. Highly recommended."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AK</div>
+                        <div>
+                            <strong>Ahmed Khan</strong>
+                            <span>CEO, TechVentures PK</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Working with Usman was seamless. He understood the vision immediately and built our e-commerce platform with incredible precision and speed."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SR</div>
+                        <div>
+                            <strong>Sara Rehman</strong>
+                            <span>Founder, StyleCart</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"The full stack app Usman built for us handles thousands of users daily without a hiccup. His code quality and communication are both exceptional."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MF</div>
+                        <div>
+                            <strong>Mohammed Farooq</strong>
+                            <span>CTO, StreamBase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER CTA -->
+    <footer id="footer">
+        <div class="footer-cta-block">
+            <p class="footer-eyebrow">Let's collaborate</p>
+            <h2 class="footer-headline">
+                Ready to build<br><em>something great?</em>
+            </h2>
+            <a href="hire.html" class="btn-primary btn-large">Start a Project</a>
+        </div>
+        <div class="footer-bottom">
+            <span class="footer-logo">UK<span>®</span></span>
+            <nav class="footer-links">
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="hire.html">Hire</a>
+            </nav>
+            <div class="footer-socials">
+                <a href="https://github.com/Usman1487">GitHub</a>
+                <a href="https://www.linkedin.com/in/usman-kamran-b995532a7/">LinkedIn</a>
+                <a href="#">Instagram</a>
+            </div>
+            <span class="footer-copy">© 2025 Usman Kamran</span>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
